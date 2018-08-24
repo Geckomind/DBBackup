@@ -1,5 +1,5 @@
 {
-    "name": "LilyLabs/DBBackup",
+    "name": "lily-labs/db-backup",
     "description": "DBBackup ejecuta mysqldump para respaldar la base de datos dada en la ruta especificada",
     "keywords": [
         "LilyLabs",
