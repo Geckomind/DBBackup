@@ -17,7 +17,7 @@ DBBackup it's a library that provides classes to execute mysqldump to backup the
 You can install the package via composer:
 
 ```bash
-composer require lilylabs/DBBackup
+composer require lily-labs/db-backup
 ```
 
 For the backup process to work, it requires that you pre-configure a local login for mysql on your server using `mysql_config_editor` as follows:

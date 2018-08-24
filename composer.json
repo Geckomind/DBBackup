@@ -1,6 +1,6 @@
 {
-    "name": "spatie/DBBackup",
-    "description": "DBBackup ejecuta mysqldump para respaldar la base de datos dada en la ruta especificada",
+    "name": "lily-labs/db-backup",
+    "description": "DBBackup it's a library that provides classes to execute mysqldump to backup the given database, relocate the backup file in the local filesystem and compress the resulting backup file.",
     "keywords": [
         "LilyLabs",
         "DBBackup",
