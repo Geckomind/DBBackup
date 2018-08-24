@@ -1,5 +1,5 @@
 {
-    "name": "spatie/DBBackup",
+    "name": "LilyLabs/DBBackup",
     "description": "DBBackup ejecuta mysqldump para respaldar la base de datos dada en la ruta especificada",
     "keywords": [
         "LilyLabs",
