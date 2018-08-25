@@ -1,4 +1,4 @@
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/lily-labs/db-backup.svg?style=flat-square)](https://packagist.org/packages/lily-labs/db-backup)
+[![Latest Stable Version on Packagist](https://poser.pugx.org/lily-labs/db-backup/v/stable)](https://packagist.org/packages/lily-labs/db-backup)
 [![Build Status](https://img.shields.io/travis/lily-labs/db-backup/master.svg?style=flat-square)](https://travis-ci.org/lily-labs/db-backup)
 [![Quality Score](https://img.shields.io/scrutinizer/g/lily-labs/db-backup.svg?style=flat-square)](https://scrutinizer-ci.com/g/lily-labs/db-backup)
 [![Total Downloads](https://img.shields.io/packagist/dt/lily-labs/db-backup.svg?style=flat-square)](https://packagist.org/packages/lily-labs/db-backup)
