@@ -12,8 +12,7 @@ use DateTime;
 class MysqldumpBackupProcessorTest extends TestCase
 {
     /**
-     * @covers LilyLabs\DBBackup\MysqldumpBackupProcessor::getFilePath
-     * @covers LilyLabs\DBBackup\MysqldumpBackupProcessor::__construct
+     * 
      */
     public function test_backup_file_generation()
     {
@@ -30,8 +29,7 @@ class MysqldumpBackupProcessorTest extends TestCase
     }
 
     /**
-     * @covers LilyLabs\DBBackup\MysqldumpBackupProcessor::getFilePath
-     * @covers LilyLabs\DBBackup\MysqldumpBackupProcessor::__construct
+     * 
      * @expectedException Exception
      **/
     public function test_exception_on_non_existent_database()

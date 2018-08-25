@@ -5,7 +5,6 @@ namespace LilyLabs\DBBackup;
 use LilyLabs\DBBackup\Contracts\BackupFileNameGenerator;
 use LilyLabs\DBBackup\Contracts\BackupProcessor;
 use LilyLabs\DBBackup\Contracts\BackupFile;
-use LilyLabs\DBBackup\DBBackupFile;
 use Exception;
 use Symfony\Component\Process\Process;
 use Symfony\Component\Process\Exception\ProcessFailedException;
