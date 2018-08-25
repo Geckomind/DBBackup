@@ -1,7 +1,7 @@
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/lilylabs/DBBackup.svg?style=flat-square)](https://packagist.org/packages/lilylabs/DBBackup)
-[![Build Status](https://img.shields.io/travis/lilylabs/DBBackup/master.svg?style=flat-square)](https://travis-ci.org/lilylabs/DBBackup)
-[![Quality Score](https://img.shields.io/scrutinizer/g/lilylabs/DBBackup.svg?style=flat-square)](https://scrutinizer-ci.com/g/lilylabs/DBBackup)
-[![Total Downloads](https://img.shields.io/packagist/dt/lilylabs/DBBackup.svg?style=flat-square)](https://packagist.org/packages/lilylabs/DBBackup)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/lily-labs/db-backup.svg?style=flat-square)](https://packagist.org/packages/lily-labs/db-backup)
+[![Build Status](https://img.shields.io/travis/lily-labs/db-backup/master.svg?style=flat-square)](https://travis-ci.org/lily-labs/db-backup)
+[![Quality Score](https://img.shields.io/scrutinizer/g/lily-labs/db-backup.svg?style=flat-square)](https://scrutinizer-ci.com/g/lily-labs/db-backup)
+[![Total Downloads](https://img.shields.io/packagist/dt/lily-labs/db-backup.svg?style=flat-square)](https://packagist.org/packages/lily-labs/db-backup)
 
 
 DBBackup it's a library that provides classes to execute mysqldump to backup the given database, relocate the backup file in the local filesystem and compress the resulting backup file.
