@@ -9,6 +9,23 @@ env:
     - COMPOSER_FLAGS="--prefer-lowest"
     - COMPOSER_FLAGS=""
 
+dist: trusty
+sudo: required
+addons:
+  apt:
+    packages:
+    - mysql-server-5.6
+    - mysql-client-core-5.6
+    - mysql-client-5.6
+
+services: mysql
+
+before_install:
+  - sudo mysql -e "use mysql; update user set authentication_string=PASSWORD('') where User='root'; update user set plugin='mysql_native_password';FLUSH PRIVILEGES;"
+  - sudo mysql_upgrade
+  - sudo service mysql restart
+  - mysql_config_editor set --login-path=local --host=localhost --user=root --password
+
 before_script:
   - travis_retry composer self-update
   - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-source
