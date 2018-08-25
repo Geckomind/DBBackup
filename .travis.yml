@@ -24,7 +24,7 @@ before_install:
   - sudo mysql -e "use mysql; update user set authentication_string=PASSWORD('') where User='root'; update user set plugin='mysql_native_password';FLUSH PRIVILEGES;"
   - sudo service mysql restart
   - mysql -e 'CREATE DATABASE test_db;'
-  - mysql_config_editor set --login-path=local --host=localhost --user=root --password=""
+  
 
 before_script:
   - travis_retry composer self-update
