@@ -16,7 +16,7 @@ class MysqldumpBackupProcessorTest extends TestCase
      */
     public function test_backup_file_generation()
     {
-        $db_name = "nexus3";
+        $db_name = "test_db";
         $date = new DateTime('now');
         
         $backup_processor = new MysqldumpBackupProcessor(
