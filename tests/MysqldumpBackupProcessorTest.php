@@ -5,7 +5,7 @@ namespace LilyLabs\DBBackup\Tests;
 use PHPUnit\Framework\TestCase;
 
 use LilyLabs\DBBackup\BasicBackupFileNameGenerator;
-use LilyLabs\DBBackup\MysqldumpBackupProcessor;
+use LilyLabs\DBBackup\MysqlDumpBackupProcessor;
 use DateTime;
 
 
@@ -19,7 +19,7 @@ class MysqldumpBackupProcessorTest extends TestCase
         $db_name = "test_db";
         $date = new DateTime('now');
         
-        $backup_processor = new MysqldumpBackupProcessor(
+        $backup_processor = new MysqlDumpBackupProcessor(
             $db_name,
             new BasicBackupFileNameGenerator($db_name, $date)
         );

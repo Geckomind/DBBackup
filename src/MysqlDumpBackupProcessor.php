@@ -16,7 +16,7 @@ use Symfony\Component\Process\Exception\ProcessFailedException;
  * @package LilyLabs\DBBackup
  * @author Abraham Chávez
  */
-class MysqldumpBackupProcessor implements BackupProcessor
+class MysqlDumpBackupProcessor implements BackupProcessor
 {
     private $db_name;
     private $backupFilenameGenerator;
