@@ -1,6 +1,6 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/lily-labs/db-backup.svg?style=flat-square)](https://packagist.org/packages/lily-labs/db-backup)
 [![Build Status](https://img.shields.io/travis/Geckomind/DBBackup/master.svg?style=flat-square)](https://travis-ci.org/Geckomind/DBBackup)
-[![Quality Score](https://img.shields.io/scrutinizer/g/lily-labs/db-backup.svg?style=flat-square)](https://scrutinizer-ci.com/g/lily-labs/db-backup)
+[![Quality Score](https://img.shields.io/scrutinizer/g/Geckomind/DBBackup.svg?style=flat-square)](https://scrutinizer-ci.com/g/Geckomind/DBBackup)
 [![Total Downloads](https://img.shields.io/packagist/dt/lily-labs/db-backup.svg?style=flat-square)](https://packagist.org/packages/lily-labs/db-backup)
 
 
