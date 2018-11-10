@@ -20,7 +20,7 @@ class GzipCompressor implements BackupFileCompressor
     public function compress(BackupFile $backup_file) : BackupFile
     {
         $filepath = $backup_file->path();
-        $process = new Process("gzip {$filepath}");
+        $process = new Process("gzip -f {$filepath}");
         try {
             $process->mustRun();
             return new DBBackupFile($backup_file->dirname()."/".$backup_file->basename().".gz");
